@@ -1,0 +1,6 @@
+medicine
+cream
+shampoo
+powder
+food
+others

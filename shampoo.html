@@ -1,0 +1,1792 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Author" content="ghassan">
+  <meta name="keywords" content="store,mart,sales">
+  <meta name="decription" content="">
+  <title>المتجر | عبوات شامبو </title>
+  <link rel="icon" href="icons/icon.png">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/bs.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <!-- start header -->
+  <header>
+    <div class="top-header d-flex align-items-center py-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-4">
+            <!-- logo -->
+            <a href="index.html">
+                <img style="width: 50px;height:40px;" src="icons/icon1.png" alt="logo">
+                <span><strong>AL FITYAN</strong></span>
+              </a>
+          </div>
+          <div class="col-6 col-md-4 ">
+            <!-- search -->
+            <input type="text" class="form-control" placeholder="أكتب أسم المنتج للبحث عنه" aria-label="Username"
+              aria-describedby="visible-addon">
+          </div>
+
+          <div class="col-md-4 left-header align-items-center d-none d-lg-flex justify-content-end">
+            <a data-bs-toggle="offcanvas" href="#cart" role="button" aria-controls="cart">
+              <span>السلة</span>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+            <a data-bs-toggle="offcanvas" href="#login" role="button" aria-controls="login">
+              <span>دخول</span>
+              <i class="fa-solid fa-user"></i>
+            </a>
+            <a href="#">
+              <span>المفضلة</span>
+              <i class="fa-solid fa-heart"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="buttom-header shadow-sm">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button class="navbar-toggler menu-icon" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div>
+            <button class="navbar-toggler menu-icon" type="button" data-bs-toggle="offcanvas" herf="#cart">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+
+            <button class="navbar-toggler menu-icon" type="button" data-bs-toggle="offcanvas" href="#login">
+              <i class="fa-solid fa-user"></i>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="medicine.html"> عبوات دوائية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cream.html"> عبوات كريم</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shampoo.html">عبوات شامبو </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="powder.html">  عبوات بودرة</a>
+              </li>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="others.html">منوعات</a>
+              </li>
+
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- end header -->
+
+<!-- start bunner -->
+<section class="bunner">
+  <h1 class="category-tittle">
+     عبوات شامبو
+  </h1>
+</section>
+<!-- End bunner -->
+
+<div class="container mt-5">
+  <button class="navbar-toggler menu-icon d-md-none" type="button" data-bs-toggle="offcanvas" href="#filter">
+    <i class="fa-solid fa-filter"></i>
+  </button> 
+  <div class="row">
+    <div class="col-md-3 d-none d-md-block">
+      <div class="filter-section sticky-lg-top">
+        <h4 class="filter-tittle">فلترة بالبحث</h4>
+
+        <input type="text" class="form-control" placeholder="أكتب أسم المنتج للبحث عنه">
+
+        <select name="" id="" class="form-select mt-3">
+          <option value="">بودرة</option>
+          <option value="">option</option>
+          <option value="">option</option>
+          <option value="">option</option>
+          <option value="">option</option>
+        </select>
+        <hr>
+        <h4 class="filter-tittle">فلترة بالتصنيف</h4>
+        <div class="filter-radio d-flex flex-column gap-1">
+          <div>
+            <input name="cat1" type="radio" class="form-check-input" id="cat11">
+            <label for="cat11" class="form-label">samsung</label>
+          </div>
+          <div>
+            <input name="cat1" type="radio" class="form-check-input" id="cat12" >
+            <label for="cat12" class="form-label">miraco</label>
+          </div>
+          <div>
+            <input name="cat1" type="radio" class="form-check-input" id="cat13" >
+            <label for="cat13" class="form-label">suoer</label>
+          </div>
+          <div>
+            <input name="cat1" type="radio" class="form-check-input" id="cat14" >
+            <label for="cat14" class="form-label">longe</label>
+          </div>
+        </div>
+        <h4 class="filter-tittle mt-3">فلترة بالإستطاعة</h4>
+        <div class="filter-radio d-flex flex-column gap-1">
+          <div>
+            <input name="cat02" type="radio" class="form-check-input" id="cat02-1">
+            <label for="cat02-1" class="form-label">100 واط</label>
+          </div>
+          <div>
+            <input name="cat02" type="radio" class="form-check-input" id="cat02-2" >
+            <label for="cat02-2" class="form-label">300 واط</label>
+          </div>
+          <div>
+            <input name="cat02" type="radio" class="form-check-input" id="cat02-3" >
+            <label for="cat02-3" class="form-label">1000 واط</label>
+          </div>
+          <div>
+            <input name="cat02" type="radio" class="form-check-input" id="cat02-4" >
+            <label for="cat02-4" class="form-label">2000 واط</label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-9 ">
+      <div class="row row-cols-2 row-cols-md-4">
+
+        
+
+        <div class="col product mb-3 shampoo">
+          <div class="card overflow-hidden text-center">
+            <div class="quick-icons">
+              <a href="#quick-product8" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+              <a href="#"><i class="fa-solid fa-face-grin-hearts"></i></a>
+              <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+            </div>
+            <img class="img-fluid" width="100%" src="images/products/shampoo/300ml custom logo hdpe rectangular shampoo bottle with lotion pump.jfif" alt="300ml custom logo hdpe rectangular shampoo bottle with lotion pump.jfif">
+            <div class="product-info">
+              <h3 class="text-center">شامبو </h3>
+              <p class="product-desc text-center">غالون ماء</p>
+            </div>
+            <div class="stars mb-2 text-center">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-light fa-star"></i>
+              <i class="fa-light fa-star"></i>
+            </div>
+            <div class="price mb-2 ">
+              <span>السعر:22$</span>
+              <span>19$</span>
+            </div>
+            <button onclick="alert('تم إضافة المنتج الى السلة بنجاح')" class="btn btn-primary w-75 m-auto mb-2">
+              إضافة إلى السلة
+            </button>
+            <!-- <i class="fa-light fa-star"></i> -->
+          </div><!--.card  -->
+        </div>
+
+        <div class="col product mb-3 shampoo">
+          <div class="card overflow-hidden text-center">
+            <div class="quick-icons">
+              <a href="#quick-product9" data-bs-toggle="modal"><i class="fa-solid fa-magnifying-glass"></i></a>
+              <a href="#"><i class="fa-solid fa-face-grin-hearts"></i></a>
+              <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+            </div>
+            <img class="img-fluid" width="100%" src="images/products/others/download (3).jfif" alt="">
+            <div class="product-info">
+              <h3 class="text-center"> شامبو</h3>
+              <p class="product-desc text-center">علبة شامبو طبيعي</p>
+            </div>
+            <div class="stars mb-2 text-center">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-light fa-star"></i>
+              <i class="fa-light fa-star"></i>
+            </div>
+            <div class="price mb-2 ">
+              <span>السعر:8$</span>
+              <span>6$</span>
+            </div>
+            <button onclick="alert('تم إضافة المنتج الى السلة بنجاح')" class="btn btn-primary w-75 m-auto mb-2">إضافة
+              إلى
+              السلة</button>
+            <!-- <i class="fa-light fa-star"></i> -->
+          </div><!--.card  -->
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+  
+  <!-- Strat Store footer -->
+  <footer>
+    <div class="container-fluid">
+      <div class="footer-overlay"></div>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 mb-3">
+        <div class="col f1 mb-3">
+          <img class="img-brand text-center w-25 mb-2" src="icons/icon1.png" alt="icon">
+          <h2 class="logo-tittle text-white">AL FITYAN PLASTIC</h2>
+          <p class="text-white">
+            متجر الفتيان
+            لبيع العبوات البلاستيكية ومواد الكوزماتيك
+
+          </p>
+          <ul class="navbar-nav">
+            <li><a class="text-white" href="#">
+                <i class="fa-solid fa-location-dot text-white"></i>حلب -الفرقان - جانب معهد رويال</a></li>
+            <li>
+              <a class="text-white" href="tel:+963995787519">
+                <i class="fa-solid fa-phone fa-shake text-white"></i>(021 2620318)
+              </a>
+            </li>
+            <li>
+              <a class="text-white" href="tel:+963995787519">
+                <i class="fa-solid fa-mobile fa-shake text-white"></i>(963 995787519+)
+              </a>
+            </li>
+            <li><a class="text-white" href="">
+                <i class="fa-brands fa-whatsapp text-white"></i>(963 944787518+)</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col f2 text-white mb-3">
+          <h3>أهم الروابط</h3>
+          <ul class="navbar-nav">
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="about.html">عنا</a></li>
+            <li><a href="contact.html">تواصل معنا</a></li>
+            <!-- <li><a href="">قسم الصيانة</a></li> -->
+          </ul>
+        </div>
+        <div class="col f3 text-white mb-3">
+          <h3>الروابط</h3>
+          <ul class="navbar-nav">
+            <li><a href="medicine.html">عبوات دوائية</a></li>
+            <li><a href="cream.html">عبوات كريم</a></li>
+            <li><a href="shampoo.html"> عبوات شامبو</a></li>
+            <li><a href="powder.html">عبوات بودرة</a></li>
+            <li><a href="others.html">منوعات </a></li>
+            <!-- <li><a href="#">غذائية</a></li>
+            <li><a href="#">منوع</a></li> -->
+          </ul>
+        </div>
+        <div class="col f4 text-white mb-3">
+          <h3>النشرة البريدية</h3>
+          <p>يرجى الإشتراك بالموقع ليصلك كل جديد من منتجانتا</p>
+          <p>بإشتراكك ستحصل على خصومات فور شرائك لأحد منتجاتنا وقد تكون الرابح بعروض مميزة ومجانية نهاية كل شهر </p>
+          <form action="" name="form-signup" class="signup-form">
+            <input type="email" class="form-control w-75 mb-2 text-start fs-5"
+              placeholder="من فضلك: أدخل عنوان بريدك الإلكتروني">
+            <button class="btn btn-primary w-75">إشتراك</button>
+          </form>
+        </div>
+      </div>
+      <hr class="footer-hr">
+      <div class="row row-cols-1 row-cols-md-2 mt-3">
+        <div class="col">
+          <img class="img-fluid mb-2" src="images/payments.png" alt="payments">
+        </div>
+        <div class="col d-flex justify-content-end">
+          <p class="text-center">المتجر متاح في كل الأوقات ونقدم خدمات التوصيل والدفع بعد استلام المنتجات</p>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+  <!-- End Store footer -->
+
+  <!-- modal------------------------------------------------------------- -->
+  <div class="modal fade" id="quick-product1" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">علب دوائية</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              <img class="w-100 " src="images/products/medicine/blank-white-label-amber-injection-vial-glass-bottle.jpg" alt="علب دوائية">
+              <a class="btn btn-primary w-100 mt-2" href="productDetails/product- (1).html">التفاصيل</a>
+            </div>
+            <div class="col">
+              <img class="img-fluid w-50 my-3" width="60%" src="images/brands/DGCo-Delfin-Group.png"
+                alt="DGCo-Delfin-Group">
+              <h1 class="fs-5 mb-3">زجاجة حقن كهرمانية اللون</h1>
+              <p class="product-description mb-2">
+                حل احترافي وفعّال لتلبية احتياجاتك التقنية والإلكترونية
+                متور مكنة حلاقة رجالي 337 3.7 فولت مصمم لتقديم أداء مستقر وآمن في بيئات متنوعة.
+              </p>
+              <div class="quick-reviews">
+                <span>تقييمات المستخدمين:</span>
+                <div class="stars mb-3 mt-2 d-inline-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2 ">
+                  <span>السعر:2$</span>
+                  <span>2.5$</span>
+                </div>
+                <div class="btns d-flex g-3">
+                  <div class="btn-group btn-quantity me-1" role="group">
+                    <button type="button" class="btn">+</button>
+                    <button type="button" class="btn">1</button>
+                    <button type="button" class="btn">-</button>
+                  </div>
+                  <div class="d-flex g-2 mb-1 add-btns">
+                    <button onclick="alert('تم إضافة المنتج للسلة ')" class="btn btn-primary me-1">إضافة للسلة</button>
+                    <button class="btn btn-primary">إضافة الآن</button>
+                  </div>
+
+                </div>
+                <hr>
+                <div class="category">
+                  <span>التصنيفات</span>
+                  <a href="#">علب دوائية</a>
+                </div>
+                <div class="share">
+                  <span>المشاركة</span>
+                  <div class="share-icons d-inline-flex g-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="quick-product2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">غذائية</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              <img class="w-100 " src="images/products/food/5 and 3 Gallon Bottled Water.jfif" alt="منظم شحن شمسي">
+              <a class="btn btn-primary w-100 mt-2" href="productDetails/product- (2).html">التفاصيل</a>
+
+            </div>
+            <div class="col">
+              <img class="img-fluid w-25 my-3" width="40%" src="images/brands/suoer.png" alt="suoer">
+              <h1 class="fs-5 mb-3">منظم شحن شمسي 30 أمبير </h1>
+              <p class="product-description mb-2">
+                وحدة تحكم في الشحن بالطاقة الشمسية 100 امبير من ام بي بي تي، منظم لوحة شمسية 12 فولت/24 فولت بمنفذ USB
+                مزدوج، منظم ذكي (100 امبير، 12 فولت/24 فولت)
+              </p>
+              <div class="quick-reviews">
+                <span>تقييمات المستخدمين:</span>
+                <div class="stars mb-3 mt-2 d-inline-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2 ">
+                  <span>السعر:12$</span>
+                  <span>9$</span>
+                </div>
+                <div class="btns d-flex g-3">
+                  <div class="btn-group btn-quantity me-1" role="group">
+                    <button type="button" class="btn">+</button>
+                    <button type="button" class="btn">1</button>
+                    <button type="button" class="btn">-</button>
+                  </div>
+                  <div class="d-flex g-2 mb-1 add-btns">
+                    <button class="btn btn-primary me-1">إضافة للسلة</button>
+                    <button class="btn btn-primary">إضافة الآن</button>
+                  </div>
+
+                </div>
+                <hr>
+                <div class="category">
+                  <span>التصنيفات</span>
+                  <a href="#">غذائية</a>
+                </div>
+                <div class="share">
+                  <span>المشاركة</span>
+                  <div class="share-icons d-inline-flex g-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="quick-product3" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">غذائية</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              <img class="w-100 " src="images/products/food/1pc Clear Food Storage Box.jfif" alt="مطربان">
+              <a class="btn btn-primary w-100 mt-2" href="productDetails/product- (3).html">التفاصيل</a>
+            </div>
+            <div class="col">
+              <img class="img-brand w-75 my-3" width="40%" src="images/brands/voltronic-axpert-off-grid.jpg"
+                alt="Voltronic ">
+              <h1 class="fs-5 mb-3">مطربان</h1>
+              <p class="product-description mb-2">
+                انفيرتر 12 V PLUS طاقة شمسية 1 kva مصمم لتقديم أداء مستقر وآمن في بيئات متنوعة.
+              </p>
+              <div class="quick-reviews">
+                <span>تقييمات المستخدمين:</span>
+                <div class="stars mb-3 mt-2 d-inline-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2 ">
+                  <span>السعر:175$</span>
+                  <span>150$</span>
+                </div>
+                <div class="btns d-flex g-3">
+                  <div class="btn-group btn-quantity me-1" role="group">
+                    <button type="button" class="btn">+</button>
+                    <button type="button" class="btn">1</button>
+                    <button type="button" class="btn">-</button>
+                  </div>
+                  <div class="d-flex g-2 mb-1 add-btns">
+                    <button onclick="alert('تم إضافة المنتج للسلة بنجاح')" class="btn btn-primary me-1">إضافة
+                      للسلة</button>
+                    <button class="btn btn-primary">إضافة الآن</button>
+                  </div>
+
+                </div>
+                <hr>
+                <div class="category">
+                  <span>التصنيفات</span>
+                  <a href="#">غذائية</a>
+                </div>
+                <div class="share">
+                  <span>المشاركة</span>
+                  <div class="share-icons d-inline-flex g-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="quick-product4" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">غذائية</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              <img class="w-100 " src="images/products/food/8 Oz Plastic Squeeze Bottle (pack Of 6), Reusable Condiment Bottle.jfif" alt="علبة سكويز بلاستيكية">
+              <a class="btn btn-primary w-100 mt-2" href="productDetails/product- (4).html">التفاصيل</a>
+            </div>
+            <div class="col">
+              <img class="img-brand w-25 my-3" width="40%" src="images/brands/suoer.png" alt="suoer">
+              <h1 class="fs-5 mb-3">
+                انفيرتيل 1500 MMPT شمسي
+              </h1>
+              <p class="product-description mb-2">
+                انفيرتيل 1500 MMPT شمسي مصمم لتقديم أداء مستقر وآمن في بيئات متنوعة.
+              </p>
+              <div class="quick-reviews">
+                <span>تقييمات المستخدمين:</span>
+                <div class="stars mb-3 mt-2 d-inline-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2 ">
+                  <span>السعر:150$</span>
+                  <span>135$</span>
+                </div>
+                <div class="btns d-flex g-3">
+                  <div class="btn-group btn-quantity me-1" role="group">
+                    <button type="button" class="btn">+</button>
+                    <button type="button" class="btn">1</button>
+                    <button type="button" class="btn">-</button>
+                  </div>
+                  <div class="d-flex g-2 mb-1 add-btns">
+                    <button class="btn btn-primary me-1">إضافة للسلة</button>
+                    <button class="btn btn-primary">إضافة الآن</button>
+                  </div>
+
+                </div>
+                <hr>
+                <div class="category">
+                  <span>التصنيفات</span>
+                  <a href="#">غذائية</a>
+                </div>
+                <div class="share">
+                  <span>المشاركة</span>
+                  <div class="share-icons d-inline-flex g-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="quick-product5" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">غذائية</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              <img class="w-100 " src="images/products/food/Transparent Round Plastic Containers Refillable Cosmetic - Temu.jfif" alt="علبة بلاستيكية">
+              <a class="btn btn-primary w-100 mt-2" href="productDetails/product- (5).html">التفاصيل</a>
+            </div>
+            <div class="col">
+              <img class="img-brand w-25 my-3" width="40%" src="images/brands/suoer.png" alt="suoer">
+              <h1 class="fs-5 mb-3">
+                علبة بلاستيكية
+              </h1>
+              <p class="product-description mb-2">
+                علبة بلاستيكية مصمم لتقديم أداء مستقر وآمن في بيئات متنوعة.
+              </p>
+              <div class="quick-reviews">
+                <span>تقييمات المستخدمين:</span>
+                <div class="stars mb-3 mt-2 d-inline-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2 ">
+                  <span>السعر:25$</span>
+                  <span>20$</span>
+                </div>
+                <div class="btns d-flex g-3">
+                  <div class="btn-group btn-quantity me-1" role="group">
+                    <button type="button" class="btn">+</button>
+                    <button type="button" class="btn">1</button>
+                    <button type="button" class="btn">-</button>
+                  </div>
+                  <div class="d-flex g-2 mb-1 add-btns">
+                    <button class="btn btn-primary me-1">إضافة للسلة</button>
+                    <button class="btn btn-primary">إضافة الآن</button>
+                  </div>
+
+                </div>
+                <hr>
+                <div class="category">
+                  <span>التصنيفات</span>
+                  <a href="#">غذائية</a>
+                </div>
+                <div class="share">
+                  <span>المشاركة</span>
+                  <div class="share-icons d-inline-flex g-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="quick-product6" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">بودرة</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              <img class="w-100 " src="images/products/powder/120mL Standard HDPE Pharma Container-50120.jfif" alt="ثلاجة 24 قدم">
+              <a href="productDetails/product19.html" class="btn btn-primary w-100 mt-2">التفاصيل</a>
+            </div>
+            <div class="col">
+              <img class="img-brand w-25 my-3" width="40%" src="images/brands/samsung.png" alt="samsung">
+              <h1 class="fs-5 mb-3">ثلاجة 24 قدم نوع سامسونج</h1>
+              <p class="product-description mb-2">
+                وصف مفصل عن المنتج أعلاه
+                النوع
+                تاريخ الانتاج
+                تيار الشحن
+                عدد دورات الشحن
+                إرشادات الحماية
+              </p>
+              <div class="quick-reviews">
+                <span>تقييمات المستخدمين:</span>
+                <div class="stars mb-3 mt-2 d-inline-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2 ">
+                  <span>السعر:600$</span>
+                  <span>550$</span>
+                </div>
+                <div class="btns d-flex g-3">
+                  <div class="btn-group btn-quantity me-1" role="group">
+                    <button type="button" class="btn">+</button>
+                    <button type="button" class="btn">1</button>
+                    <button type="button" class="btn">-</button>
+                  </div>
+                  <div class="d-flex g-2 mb-1 add-btns">
+                    <button class="btn btn-primary me-1">إضافة للسلة</button>
+                    <button class="btn btn-primary">إضافة الآن</button>
+                  </div>
+
+                </div>
+                <hr>
+                <div class="category">
+                  <span>التصنيفات</span>
+                  <a href="#">بودرة</a>
+                </div>
+                <div class="share">
+                  <span>المشاركة</span>
+                  <div class="share-icons d-inline-flex g-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="quick-product7" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">بودرة</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              <img class="w-100 " src="images/products/others/Smart Kitchen scale Digital electronic food scale balance High precision Housewares kitchen accessories 1 gram.jfif" alt="مكوات">
+              <a href="productDetails/product- (7).html" class="btn btn-primary w-100 mt-2">التفاصيل</a>
+            </div>
+            <div class="col">
+              <img class="img-brand w-25 my-3" width="40%" src="images/brands/samsung.png" alt="samsung">
+              <h1 class="fs-5 mb-3">ميزان مطبخ</h1>
+              <p class="product-description mb-2">
+                وصف مفصل عن المنتج أعلاه
+                النوع
+                تاريخ الانتاج
+                تيار الشحن
+                عدد دورات الشحن
+                إرشادات الحماية
+              </p>
+              <div class="quick-reviews">
+                <span>تقييمات المستخدمين:</span>
+                <div class="stars mb-3 mt-2 d-inline-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2 ">
+                  <span>السعر:12$</span>
+                  <span>11$</span>
+                </div>
+                <div class="btns d-flex g-3">
+                  <div class="btn-group btn-quantity me-1" role="group">
+                    <button type="button" class="btn">+</button>
+                    <button type="button" class="btn">1</button>
+                    <button type="button" class="btn">-</button>
+                  </div>
+                  <div class="d-flex g-2 mb-1 add-btns">
+                    <button class="btn btn-primary me-1">إضافة للسلة</button>
+                    <button class="btn btn-primary">إضافة الآن</button>
+                  </div>
+
+                </div>
+                <hr>
+                <div class="category">
+                  <span>التصنيفات</span>
+                  <a href="#">منوع</a>
+                </div>
+                <div class="share">
+                  <span>المشاركة</span>
+                  <div class="share-icons d-inline-flex g-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="quick-product8" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">أجهزة إلكترونية</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              <img class="w-100 " src="images/products/shampoo/300ml custom logo hdpe rectangular shampoo bottle with lotion pump.jfif" alt="300ml custom logo hdpe rectangular shampoo bottle with lotion pump.jfif">
+              <a href="productDetails/product- (8).html" class="btn btn-primary w-100 mt-2">التفاصيل</a>
+            </div>
+            <div class="col">
+              <img class="img-brand w-25 my-3" width="40%" src="images/brands/samsung.png" alt="samsung">
+              <h1 class="fs-5 mb-3">300ml custom logo hdpe rectangular shampoo bottle with lotion pump.jfif</h1>
+              <p class="product-description mb-2">
+                وصف مفصل عن المنتج أعلاه
+                النوع
+                تاريخ الانتاج
+                تيار الشحن
+                عدد دورات الشحن
+                إرشادات الحماية
+              </p>
+              <div class="quick-reviews">
+                <span>تقييمات المستخدمين:</span>
+                <div class="stars mb-3 mt-2 d-inline-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2 ">
+                  <span>السعر:22$</span>
+                  <span>19$</span>
+                </div>
+                <div class="btns d-flex g-3">
+                  <div class="btn-group btn-quantity me-1" role="group">
+                    <button type="button" class="btn">+</button>
+                    <button type="button" class="btn">1</button>
+                    <button type="button" class="btn">-</button>
+                  </div>
+                  <div class="d-flex g-2 mb-1 add-btns">
+                    <button class="btn btn-primary me-1">إضافة للسلة</button>
+                    <button class="btn btn-primary">إضافة الآن</button>
+                  </div>
+
+                </div>
+                <hr>
+                <div class="category">
+                  <span>التصنيفات</span>
+                  <a href="#">أجهزة إلكترونية</a>
+                </div>
+                <div class="share">
+                  <span>المشاركة</span>
+                  <div class="share-icons d-inline-flex g-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="quick-product9" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">أجهزة إلكترونية</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              <img class="w-100 " src="images/products/others/download (3).jfif" alt="ليس">
+              <a href="productDetails/product- (9).html" class="btn btn-primary w-100 mt-2">التفاصيل</a>
+            </div>
+            <div class="col">
+              <img class="img-brand w-25 my-3" width="40%" src="images/brands/samsung.png" alt="samsung">
+              <h1 class="fs-5 mb-3">علبة شامبو طبيعي</h1>
+              <p class="product-description mb-2">
+                وصف مفصل عن المنتج أعلاه
+                النوع
+                تاريخ الانتاج
+                تيار الشحن
+                عدد دورات الشحن
+                إرشادات الحماية
+              </p>
+              <div class="quick-reviews">
+                <span>تقييمات المستخدمين:</span>
+                <div class="stars mb-3 mt-2 d-inline-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2 ">
+                  <span>السعر:8$</span>
+                  <span>6$</span>
+                </div>
+                <div class="btns d-flex g-3">
+                  <div class="btn-group btn-quantity me-1" role="group">
+                    <button type="button" class="btn">+</button>
+                    <button type="button" class="btn">1</button>
+                    <button type="button" class="btn">-</button>
+                  </div>
+                  <div class="d-flex g-2 mb-1 add-btns">
+                    <button class="btn btn-primary me-1">إضافة للسلة</button>
+                    <button class="btn btn-primary">إضافة الآن</button>
+                  </div>
+
+                </div>
+                <hr>
+                <div class="category">
+                  <span>التصنيفات</span>
+                  <a href="#">أجهزة إلكترونية</a>
+                </div>
+                <div class="share">
+                  <span>المشاركة</span>
+                  <div class="share-icons d-inline-flex g-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="quick-product10" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">منوع</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              <img class="w-100 " src="images/products/others/Clear Tattoo Diffuser Green Soap Squeeze Bottle Cylinder 250ml.jfif" alt="علبة ضغط 250 مل">
+              <a href="productDetails/product- (10).html" class="btn btn-primary w-100 mt-2">التفاصيل</a>
+            </div>
+            <div class="col">
+              <img class="img-brand w-25 my-3" width="40%" src="images/brands/diamond.png" alt="diamond">
+              <h1 class="fs-5 mb-3">
+                علبة ضغط 250 مل
+              </h1>
+              <p class="product-description mb-2">
+                وصف مفصل عن المنتج أعلاه
+                النوع
+                تاريخ الانتاج
+                تيار الشحن
+                عدد دورات الشحن
+                إرشادات الحماية
+              </p>
+              <div class="quick-reviews">
+                <span>تقييمات المستخدمين:</span>
+                <div class="stars mb-3 mt-2 d-inline-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2 ">
+                  <span>السعر:3$</span>
+                  <span>2$</span>
+                </div>
+                <div class="btns d-flex g-3">
+                  <div class="btn-group btn-quantity me-1" role="group">
+                    <button type="button" class="btn">+</button>
+                    <button type="button" class="btn">1</button>
+                    <button type="button" class="btn">-</button>
+                  </div>
+                  <div class="d-flex g-2 mb-1 add-btns">
+                    <button class="btn btn-primary me-1">إضافة للسلة</button>
+                    <button class="btn btn-primary">إضافة الآن</button>
+                  </div>
+
+                </div>
+                <hr>
+                <div class="category">
+                  <span>التصنيفات</span>
+                  <a href="#">منوع</a>
+                </div>
+                <div class="share">
+                  <span>المشاركة</span>
+                  <div class="share-icons d-inline-flex g-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="quick-product11" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">منوع</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              <img class="w-100 " src="images/products/others/Smart Kitchen scale Digital electronic food scale balance High precision Housewares kitchen accessories 1 gram.jfif" alt="منوع">
+              <a href="productDetails/product- (11).html" class="btn btn-primary w-100 mt-2">التفاصيل</a>
+            </div>
+            <div class="col">
+              <img class="img-brand w-25 my-3" width="40%" src="images/brands/long.png" alt="long">
+              <h1 class="fs-5 mb-3">ميزان مطبخ الكتروني</h1>
+              <p class="product-description mb-2">
+                وصف مفصل عن المنتج أعلاه
+                النوع
+                تاريخ الانتاج
+                تيار الشحن
+                عدد دورات الشحن
+                إرشادات الحماية
+              </p>
+              <div class="quick-reviews">
+                <span>تقييمات المستخدمين:</span>
+                <div class="stars mb-3 mt-2 d-inline-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2 ">
+                  <span>السعر:12$</span>
+                  <span>9$</span>
+                </div>
+                <div class="btns d-flex g-3">
+                  <div class="btn-group btn-quantity me-1" role="group">
+                    <button type="button" class="btn">+</button>
+                    <button type="button" class="btn">1</button>
+                    <button type="button" class="btn">-</button>
+                  </div>
+                  <div class="d-flex g-2 mb-1 add-btns">
+                    <button class="btn btn-primary me-1">إضافة للسلة</button>
+                    <button class="btn btn-primary">إضافة الآن</button>
+                  </div>
+
+                </div>
+                <hr>
+                <div class="category">
+                  <span>التصنيفات</span>
+                  <a href="#">منوع</a>
+                </div>
+                <div class="share">
+                  <span>المشاركة</span>
+                  <div class="share-icons d-inline-flex g-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="quick-product12" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">كريم</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              <img class="w-100 " src="images/products/cream/blank-white-cosmetic-tube-mockup-perfect-skincare-beauty-product-presentation.jpg" alt="مجموعة لحام قصدير ">
+              <a href="productDetails/product- (12).html" class="btn btn-primary w-100 mt-2">التفاصيل</a>
+            </div>
+            <div class="col">
+              <img class="img-brand w-25 my-3" width="40%" src="images/brands/samsung.png" alt="samsung">
+              <h1 class="fs-5 mb-3">مجموعة لحام قصدير</h1>
+              <p class="product-description mb-2">
+                وصف مفصل عن المنتج أعلاه
+                النوع
+                تاريخ الانتاج
+                تيار الشحن
+                عدد دورات الشحن
+                إرشادات الحماية
+              </p>
+              <div class="quick-reviews">
+                <span>تقييمات المستخدمين:</span>
+                <div class="stars mb-3 mt-2 d-inline-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2 ">
+                  <span>السعر:30$</span>
+                  <span>25$</span>
+                </div>
+                <div class="btns d-flex g-3">
+                  <div class="btn-group btn-quantity me-1" role="group">
+                    <button type="button" class="btn">+</button>
+                    <button type="button" class="btn">1</button>
+                    <button type="button" class="btn">-</button>
+                  </div>
+                  <div class="d-flex g-2 mb-1 add-btns">
+                    <button class="btn btn-primary me-1">إضافة للسلة</button>
+                    <button class="btn btn-primary">إضافة الآن</button>
+                  </div>
+
+                </div>
+                <hr>
+                <div class="category">
+                  <span>التصنيفات</span>
+                  <a href="#">كريم</a>
+                </div>
+                <div class="share">
+                  <span>المشاركة</span>
+                  <div class="share-icons d-inline-flex g-2 mb-3 ">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="quick-product13" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">كريم</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              <img class="w-100 " src="images/products/cream/vector-illustration-realistic-style-transparent-glass-cosmetic-containers-with-open-silver-lid.jpg" alt="مجموعة كاوي هواء">
+              <a href="productDetails/product- (13).html" class="btn btn-primary w-100 mt-2">التفاصيل</a>
+            </div>
+            <div class="col">
+              <img class="img-brand w-25 my-3" width="40%" src="images/brands/samsung.png" alt="samsung">
+              <h1 class="fs-5 mb-3">محموعة كاوي هواء</h1>
+              <p class="product-description mb-2">
+                وصف مفصل عن المنتج أعلاه
+                النوع
+                تاريخ الانتاج
+                تيار الشحن
+                عدد دورات الشحن
+                إرشادات الحماية
+              </p>
+              <div class="quick-reviews">
+                <span>تقييمات المستخدمين:</span>
+                <div class="stars mb-3 mt-2 d-inline-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2 ">
+                  <span>السعر:500$</span>
+                  <span>490$</span>
+                </div>
+                <div class="btns d-flex g-3">
+                  <div class="btn-group btn-quantity me-1" role="group">
+                    <button type="button" class="btn">+</button>
+                    <button type="button" class="btn">1</button>
+                    <button type="button" class="btn">-</button>
+                  </div>
+                  <div class="d-flex g-2 mb-1 add-btns">
+                    <button class="btn btn-primary me-1">إضافة للسلة</button>
+                    <button class="btn btn-primary">إضافة الآن</button>
+                  </div>
+
+                </div>
+                <hr>
+                <div class="category">
+                  <span>التصنيفات</span>
+                  <a href="#">كريم</a>
+                </div>
+                <div class="share">
+                  <span>المشاركة</span>
+                  <div class="share-icons d-inline-flex g-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="quick-product14" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">كريم</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              <img class="w-100 " src="images/products/cream/Cosmetic bottle for cream.jfif"
+                alt="">
+              <a href="productDetails/product- (14).html" class="btn btn-primary w-100 mt-2">التفاصيل</a>
+            </div>
+            <div class="col">
+              <img class="img-brand w-25 my-3" width="40%" src="images/brands/samsung.png" alt="samsung">
+              <h1 class="fs-5 mb-3">
+                
+              </h1>
+              <p class="product-description mb-2">
+
+              </p>
+              <div class="quick-reviews">
+                <span>تقييمات المستخدمين:</span>
+                <div class="stars mb-3 mt-2 d-inline-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2 ">
+                  <span>السعر:30$</span>
+                  <span>25$</span>
+                </div>
+                <div class="btns d-flex g-3">
+                  <div class="btn-group btn-quantity me-1" role="group">
+                    <button type="button" class="btn">+</button>
+                    <button type="button" class="btn">1</button>
+                    <button type="button" class="btn">-</button>
+                  </div>
+                  <div class="d-flex g-2 mb-1 add-btns">
+                    <button class="btn btn-primary me-1">إضافة للسلة</button>
+                    <button class="btn btn-primary">إضافة الآن</button>
+                  </div>
+
+                </div>
+                <hr>
+                <div class="category">
+                  <span>التصنيفات</span>
+                  <a href="#">كريم</a>
+                </div>
+                <div class="share">
+                  <span>المشاركة</span>
+                  <div class="share-icons d-inline-flex g-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="quick-product15" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">product15</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              <img class="w-100 " src="images/products/medicine/green-glass-pill-bottle-with-capsules-pharmaceutical.jpg" alt="منوع">
+              <a href="productDetails/product- (15).html" class="btn btn-primary w-100 mt-2">التفاصيل</a>
+            </div>
+            <div class="col">
+              <img class="img-brand w-25 my-3" width="40%" src="images/brands/samsung.png" alt="samsung">
+              <h1 class="fs-5 mb-3">زجاجة حبوب خضراء بفلة</h1>
+              <p class="product-description mb-2">
+                وصف مفصل عن المنتج أعلاه
+                النوع
+                تاريخ الانتاج
+                تيار الشحن
+                عدد دورات الشحن
+                إرشادات الحماية
+              </p>
+              <div class="quick-reviews">
+                <span>تقييمات المستخدمين:</span>
+                <div class="stars mb-3 mt-2 d-inline-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2 ">
+                  <span>السعر:1$</span>
+                  <span>0.5$</span>
+                </div>
+                <div class="btns d-flex g-3">
+                  <div class="btn-group btn-quantity me-1" role="group">
+                    <button type="button" class="btn">+</button>
+                    <button type="button" class="btn">1</button>
+                    <button type="button" class="btn">-</button>
+                  </div>
+                  <div class="d-flex g-2 mb-1 add-btns">
+                    <button class="btn btn-primary me-1">إضافة للسلة</button>
+                    <button class="btn btn-primary">إضافة الآن</button>
+                  </div>
+
+                </div>
+                <hr>
+                <div class="category">
+                  <span>التصنيفات</span>
+                  <a href="#">إكسسوارات إلكترونية</a>
+                </div>
+                <div class="share">
+                  <span>المشاركة</span>
+                  <div class="share-icons d-inline-flex g-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="quick-product16" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">بودرة</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              <img class="w-100 " src="images/products/powder/6 oz White HDPE Powder Style Bottles w_ White Twist Top Sifter Caps.jfif" alt="علبة بودرة متنوعة">
+              <a href="productDetails/product- (16).html" class="btn btn-primary w-100 mt-2">التفاصيل</a>
+            </div>
+            <div class="col">
+              <img class="img-brand w-25 my-3" width="40%" src="images/brands/samsung.png" alt="samsung">
+              <h1 class="fs-5 mb-3">
+                علبة بودرة متنوعة
+              </h1>
+              <p class="product-description mb-2">
+                وصف مفصل عن المنتج أعلاه
+                النوع
+                تاريخ الانتاج
+                تيار الشحن
+                عدد دورات الشحن
+                إرشادات الحماية
+              </p>
+              <div class="quick-reviews">
+                <span>تقييمات المستخدمين:</span>
+                <div class="stars mb-3 mt-2 d-inline-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2 ">
+                  <span>السعر:175$</span>
+                  <span>150$</span>
+                </div>
+                <div class="btns d-flex g-3">
+                  <div class="btn-group btn-quantity me-1" role="group">
+                    <button type="button" class="btn">+</button>
+                    <button type="button" class="btn">1</button>
+                    <button type="button" class="btn">-</button>
+                  </div>
+                  <div class="d-flex g-2 mb-1 add-btns">
+                    <button onclick="alert('تم إضافة المنتج للسلة بنجاح')" class="btn btn-primary me-1">إضافة
+                      للسلة</button>
+                    <button class="btn btn-primary">إضافة الآن</button>
+                  </div>
+
+                </div>
+                <hr>
+                <div class="category">
+                  <span>التصنيفات</span>
+                  <a href="#">بودرة</a>
+                </div>
+                <div class="share">
+                  <span>المشاركة</span>
+                  <div class="share-icons d-inline-flex g-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="quick-product17" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">بودرة</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              <img class="w-100 " src="images/products/powder/Embracing simplicity with every chew_ ⚪️_.jfif" alt="علبة بودرة صغيرة">
+              <a href="productDetails/product- (17).html" class="btn btn-primary w-100 mt-2">التفاصيل</a>
+            </div>
+            <div class="col">
+              <img class="img-brand w-25 my-3" width="40%" src="images/brands/suoer.png" alt="suoer">
+              <h1 class="fs-5 mb-3">
+                علبة بودرة صغيرة
+
+              </h1>
+              <p class="product-description mb-2">
+                وصف مفصل عن المنتج أعلاه
+                النوع
+                تاريخ الانتاج
+                تيار الشحن
+                عدد دورات الشحن
+                إرشادات الحماية
+              </p>
+              <div class="quick-reviews">
+                <span>تقييمات المستخدمين:</span>
+                <div class="stars mb-3 mt-2 d-inline-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2 ">
+                  <span>السعر:15$</span>
+                  <span>12$</span>
+                </div>
+                <div class="btns d-flex g-3">
+                  <div class="btn-group btn-quantity me-1" role="group">
+                    <button type="button" class="btn">+</button>
+                    <button type="button" class="btn">1</button>
+                    <button type="button" class="btn">-</button>
+                  </div>
+                  <div class="d-flex g-2 mb-1 add-btns">
+                    <button onclick="alert('تم إضافة المنتج للسلة بنجاح')" class="btn btn-primary me-1">إضافة
+                      للسلة</button>
+                    <button class="btn btn-primary">إضافة الآن</button>
+                  </div>
+
+                </div>
+                <hr>
+                <div class="category">
+                  <span>التصنيفات</span>
+                  <a href="#">بودرة</a>
+                </div>
+                <div class="share">
+                  <span>المشاركة</span>
+                  <div class="share-icons d-inline-flex g-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="quick-product18" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">بودرة</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              <img class="w-100 " src="images/products/powder/Flacon pulvérisateur de poudre de talc de 180ml, Portable et démontable, outil de maquillage pour.jfif" alt="علبة بودرة بخاخ">
+              <a href="productDetails/product- (18).html" class="btn btn-primary w-100 mt-2">التفاصيل</a>
+            </div>
+            <div class="col">
+              <img class="img-brand w-25 my-3" width="40%" src="images/brands/suoer.png" alt="suoer">
+              <h1 class="fs-5 mb-3">
+                علبة بودرة بخاخ
+
+              </h1>
+              <p class="product-description mb-2">
+                وصف مفصل عن المنتج أعلاه
+                النوع
+                تاريخ الانتاج
+                تيار الشحن
+                عدد دورات الشحن
+                إرشادات الحماية
+              </p>
+              <div class="quick-reviews">
+                <span>تقييمات المستخدمين:</span>
+                <div class="stars mb-3 mt-2 d-inline-flex">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price mb-2 ">
+                  <span>السعر:12$</span>
+                  <span>9$</span>
+                </div>
+                <div class="btns d-flex g-3">
+                  <div class="btn-group btn-quantity me-1" role="group">
+                    <button type="button" class="btn">+</button>
+                    <button type="button" class="btn">1</button>
+                    <button type="button" class="btn">-</button>
+                  </div>
+                  <div class="d-flex g-2 mb-1 add-btns">
+                    <button onclick="alert('تم إضافة المنتج للسلة بنجاح')" class="btn btn-primary me-1">إضافة
+                      للسلة</button>
+                    <button class="btn btn-primary">إضافة الآن</button>
+                  </div>
+
+                </div>
+                <hr>
+                <div class="category">
+                  <span>التصنيفات</span>
+                  <a href="#">بودرة</a>
+                </div>
+                <div class="share">
+                  <span>المشاركة</span>
+                  <div class="share-icons d-inline-flex g-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- modal------------------------------------------------------------- -->
+
+
+
+  <!-- off canvas -->
+
+  <!-- cart -->
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="cart" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">سلة المشتريات</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="row row-cols-1 row-mini-card ">
+        <div class="col mini-card d-flex justify-content-between align-items-center g-3">
+          <img class="w-25" src="images/products/others/Smart Kitchen scale Digital electronic food scale balance High precision Housewares kitchen accessories 1 gram.jfif" alt="بطارية جافة">
+          <p>ميزان مطبخ الكتروني</p>
+          <div class="btn-group btn-quantity-mini">
+            <button type="button" class="btn">+</button>
+            <button type="button" class="btn">1</button>
+            <button type="button" class="btn">-</button>
+          </div>
+        </div>
+        <div class="col mini-card d-flex justify-content-between align-items-center g-3">
+          <img class="w-25" src="images/products/medicine/green-glass-pill-bottle-with-capsules-pharmaceutical.jpg" alt="زجاجة حبوب خضراء">
+          <p>زجاجة حبوب خضراء </p>
+          <div class="btn-group btn-quantity-mini">
+            <button type="button" class="btn">+</button>
+            <button type="button" class="btn">1</button>
+            <button type="button" class="btn">-</button>
+          </div>
+        </div>
+        <div class="col mini-card d-flex justify-content-between align-items-center g-3">
+          <img class="w-25" src="images/products/food/5 and 3 Gallon Bottled Water.jfif" alt="منظم شحن شمسي">
+          <p>منظم شحن شمسي</p>
+          <div class="btn-group btn-quantity-mini">
+            <button type="button" class="btn">+</button>
+            <button type="button" class="btn">1</button>
+            <button type="button" class="btn">-</button>
+          </div>
+        </div>
+        <div class="col mini-card d-flex justify-content-between align-items-center g-3">
+          <img class="w-25" src="images/products/4.webp" alt="سبيكر">
+          <p>نظارة حماية</p>
+          <div class="btn-group btn-quantity-mini">
+            <button type="button" class="btn">+</button>
+            <button type="button" class="btn">1</button>
+            <button type="button" class="btn">-</button>
+          </div>
+        </div>
+      </div>
+      <div class="text-center">
+        <p class="alert alert-success">مجموع المنتجات 32$ فقط لاغير</p>
+        <button class="btn btn-primary">عرض محتويات السلة</button>
+        <button class="btn btn-primary">إلغاء الطلب</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- filter -->
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="filter" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">الفلترة</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="filter-section sticky-lg-top">
+        <h4 class="filter-tittle">فلترة بالبحث</h4>
+
+        <input type="text" class="form-control" placeholder="أكتب أسم المنتج للبحث عنه">
+
+        <select name="" id="" class="form-select mt-3">
+          <option value="">بودرة</option>
+          <option value="">option</option>
+          <option value="">option</option>
+          <option value="">option</option>
+          <option value="">option</option>
+        </select>
+        <hr>
+        <h4 class="filter-tittle">فلترة بالتصنيف</h4>
+        <div class="filter-radio d-flex flex-column gap-1">
+          <div>
+            <input name="cat1" type="radio" class="form-check-input" >
+            <label for="" class="form-label">samsung</label>
+          </div>
+          <div>
+            <input name="cat2" type="radio" class="form-check-input" >
+            <label for="" class="form-label">miraco</label>
+          </div>
+          <div>
+            <input name="cat3" type="radio" class="form-check-input" >
+            <label for="" class="form-label">suoer</label>
+          </div>
+          <div>
+            <input name="cat4" type="radio" class="form-check-input" >
+            <label for="" class="form-label">longe</label>
+          </div>
+        </div>
+        <h4 class="filter-tittle mt-3">فلترة بالإستطاعة</h4>
+        <div class="filter-radio d-flex flex-column gap-1">
+          <div>
+            <input name="cat01" type="radio" class="form-check-input" >
+            <label for="" class="form-label">100 واط</label>
+          </div>
+          <div>
+            <input name="cat02" type="radio" class="form-check-input" >
+            <label for="" class="form-label">300 واط</label>
+          </div>
+          <div>
+            <input name="cat03" type="radio" class="form-check-input" >
+            <label for="" class="form-label">1000 واط</label>
+          </div>
+          <div>
+            <input name="cat04" type="radio" class="form-check-input" >
+            <label for="" class="form-label">2000 واط</label>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- login -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="login" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">تسجيل الدخول</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="mini-login">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">أسم المستخدم أو البريد:</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <!-- <div id="emailHelp" class="form-text"></div> -->
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">كلمة السر</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">تذكرني</label>
+          </div>
+          <button type="submit" class="btn btn-primary mb-3">تسجيل الدخول</button>
+          <div class="pass-forget text-center">
+            <a href="">أنقر هنا إذا نسيت كلمة السر</a>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/bs.js"></script>
+
+</body>
+
+</html>
