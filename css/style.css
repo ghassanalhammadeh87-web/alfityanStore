@@ -216,13 +216,12 @@ a {
 }
 
 /* @media(max-width:768px){ */
-.porducts .btn-group {
+/* .porducts .btn-group {
     display: flex;
     flex-direction: column !important;
     justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-}
+    align-items: center; 
+} */
 
 
 .product-info {
@@ -292,7 +291,6 @@ a {
     margin-bottom: 50px;
 }
 
-/* .......................................... */
 
 /* .......................................... */
 
