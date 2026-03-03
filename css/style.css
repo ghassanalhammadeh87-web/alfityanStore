@@ -237,7 +237,11 @@ a {
 .product-info p {
     font-size: 14px;
 }
-
+.price{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 .stars i {
     color: var(--starColor);
     font-size: 20px;
@@ -245,13 +249,12 @@ a {
 
 .price :last-child {
     color: var(--secondarycolor);
-    margin-left: 20px;
     font-weight: 900;
-    margin-right: 30px;
 }
 
 .price :first-child {
     text-decoration: line-through;
+    
 }
 
 .quick-icons {
