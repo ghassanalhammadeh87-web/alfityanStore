@@ -493,11 +493,6 @@ a {
 /* start footer */
 footer {
     padding-top: 70px;
-    /* background-image: url("..//images/bg-footer.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* color: whitesmoke; */
     background-color: rgb(43, 40, 40);
     z-index: 201;
 }
@@ -520,15 +515,15 @@ footer p {
     line-height: 1.7;
 }
 
-footer .navbar-nav li a {
+/* footer .f3 .navbar-nav li a {
     padding: 0 10px;
     transition: 0.3s;
     display: flex;
-}
+} */
+
 
 footer .navbar-nav li a:hover {
     border-radius: 8px !important;
-    /* background-color: var(--maincolor); */
     color: var(--maincolor) !important;
     transform: translatex(-10px) !important;
 }
@@ -572,7 +567,6 @@ footer .footer-hr {
     background-color: var(--main-lite-color);
     padding: 50px 0;
     border-bottom: 1px solid var(--secondary-lite-color);
-    /* background-image: url("/images/"); */
 
 }
 .bunner p{
@@ -669,3 +663,11 @@ footer .footer-hr {
     position: absolute !important;
     left: 100px !important;
 } */
+
+
+
+
+/* product decs page setting */
+.quick-reviews .category a{
+ color: black !important;
+}
