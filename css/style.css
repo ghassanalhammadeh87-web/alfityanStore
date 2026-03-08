@@ -52,6 +52,11 @@ a {
 }
 
 /* header ---------------------------------------------------------------------------*/
+header{
+    position: sticky !important;
+    top: 0;
+    z-index: 4000;
+}
 .top-header {
     background-color: var(--secondarycolor);
     /* position: fixed; */
