@@ -26,13 +26,13 @@
           <div class="col-6 col-md-4">
             <!-- logo -->
             <a href="/">
-              <img style="width: 30px;height:35px;" src="..//icons/circuit-board-logo.png" alt="logo">
+              <img style="width: 30px;height:35px;" src="..//icons/icon1.png" alt="logo">
               <span><strong>AL FITYAN</strong></span>
             </a>
           </div>
           <div class="col-6 col-md-4 ">
             <!-- search -->
-            <input type="text" class="form-control" placeholder="أكتب أسم المنتج للبحث عنه" aria-label="Username"
+            <input id="search-id" type="text" class="form-control" placeholder="أكتب أسم المنتج للبحث عنه" aria-label="Username"
               aria-describedby="visible-addon">
           </div>
 
@@ -232,7 +232,7 @@
     <div class="container-fluid">
       <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 mb-3">
         <div class="col f1 mb-3">
-          <img class="img-brand text-center w-25" src="..//icons/circuit-board-logo.png" alt="AL FITYAN">
+          <img class="img-brand text-center w-25" src="..//icons/icon1.png" alt="AL FITYAN">
           <h2 class="logo-tittle text-white">AL FITYAN</h2>
           <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ad, facere numquam
             possimus eaque quidem omnis dicta assumenda explicabo cum?</p>
@@ -270,10 +270,10 @@
           <h3>النشرة البريدية</h3>
           <p>يرجى الإشتراك بالموقع ليصلك كل جديد من منتجانتا</p>
           <p>بإشتراكك ستحصل على خصومات فور شرائك لأحد منتجاتنا وقد تكون الرابح بعروض مميزة ومجانية نهاية كل شهر </p>
-          <form action="" name="form-signup" class="signup-form">
-            <input type="email" class="form-control w-75 mb-2 text-start fs-5"
+          <form action="" itemid="form-signup" name="form-signup" class="signup-form" >
+            <input name="email-user" id="email-user" type="email" class="form-control w-75 mb-2 text-start fs-5"
               placeholder="من فضلك: أدخل عنوان بريدك الإلكتروني">
-            <button class="btn btn-success w-75">إشتراك</button>
+            <button class="btn btn-primary w-75">إشتراك</button>
           </form>
         </div>
       </div>

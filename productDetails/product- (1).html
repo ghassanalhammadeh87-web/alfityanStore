@@ -8,7 +8,7 @@
   <meta name="keywords" content="store,mart,sales">
   <meta name="decription" content="">
   <title>
-    المخزن | زجاجة حقن كهرمانية اللون
+    المتجر | زجاجة حقن كهرمانية اللون
   </title>
   <link rel="icon" href="..//icons/icon.png">
   <link rel="stylesheet" href="..//css/all.min.css">
@@ -34,16 +34,16 @@
           </div>
           <div class="col-6 col-md-4 ">
             <!-- search -->
-            <input type="text" class="form-control" placeholder="أكتب أسم المنتج للبحث عنه" aria-label="Username"
-              aria-describedby="visible-addon" disabled>
+            <input id="search-id" type="text" class="form-control" placeholder="أكتب أسم المنتج للبحث عنه" aria-label="Username"
+              aria-describedby="visible-addon"  disabled>
           </div>
 
           <div class="col-md-4 left-header align-items-center d-none d-lg-flex justify-content-end">
-            <a data-bs-toggle="offcanvas" href="#cart" role="button" aria-controls="cart" disabled>
+            <a data-bs-toggle="offcanvas" href="#whatsapp" role="button" aria-controls="cart" >
               <span>واتس</span>
               <i class="fa-brands fa-whatsapp"></i>
             </a>
-            <a data-bs-toggle="offcanvas" href="#login" role="button" aria-controls="login" disabled>
+            <a data-bs-toggle="offcanvas" href="#facebook" role="button" aria-controls="login" >
               <span>فيس بوك</span>
               <i class="fa-brands fa-facebook"></i>
             </a>
@@ -66,11 +66,11 @@
           </button>
 
           <div>
-            <button class="navbar-toggler menu-icon" type="button" data-bs-toggle="offcanvas" href="#cart" disabled>
+            <button class="navbar-toggler menu-icon" type="button" data-bs-toggle="offcanvas" href="#whatsapp" >
               <i class="fa-brands fa-whatsapp"></i>
             </button>
 
-            <button class="navbar-toggler menu-icon" type="button" data-bs-toggle="offcanvas" href="#login" disabled>
+            <button class="navbar-toggler menu-icon" type="button" data-bs-toggle="offcanvas" href="#facebook" >
               <i class="fa-brands fa-facebook"></i>
             </button>
           </div>
@@ -107,7 +107,7 @@
   <div class="container">
     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
       <ol class="breadcrumb mt-4">
-        <li class="breadcrumb-item"><a class="text-black" href="..//index.html">الرئيسية</a></li>
+        <li class="breadcrumb-item"><a href="..//index.html">الرئيسية</a></li>
         <li class="breadcrumb-item " aria-current="page"> <a class="text-black" href="..//medicine.html">علب دوائية</a>
         </li>
         <li class="breadcrumb-item active" aria-current="page"><a class="text-black" href="product- (1).html">زجاجة حقن
@@ -153,7 +153,7 @@
           </button>
         </div>
       </div>
-      <div class="col-md-6">
+      <div class="desc-product col-md-6">
         <img class="img-fluid w-25 my-3" width="40%" src="..//images/brands/DGCo-Delfin-Group.png"
           alt="DGCo-Delfin-Group">
         <h1 class="fs-5 mb-3">
@@ -172,8 +172,6 @@
           <li>النوع: منتج زجاجي عالي الجودة
           </li>
           <li>الاستخدام: متعدد الاستخدامات حسب الحاجة
-          </li>
-          <li>العلامة التجارية: DGCO أو مكافئة
           </li>
         </ul>
         <h2 class="m-3">⚙️ الاستخدامات الشائعة:
@@ -289,8 +287,8 @@
           <h3>النشرة البريدية</h3>
           <p>يرجى الإشتراك بالموقع ليصلك كل جديد من منتجانتا</p>
           <p>بإشتراكك ستحصل على خصومات فور شرائك لأحد منتجاتنا وقد تكون الرابح بعروض مميزة ومجانية نهاية كل شهر </p>
-          <form action="" name="form-signup" class="signup-form">
-            <input type="email" class="form-control w-75 mb-2 text-start fs-5"
+          <form action="" itemid="form-signup" name="form-signup" class="signup-form" >
+            <input name="email-user" id="email-user" type="email" class="form-control w-75 mb-2 text-start fs-5"
               placeholder="من فضلك: أدخل عنوان بريدك الإلكتروني">
             <button class="btn btn-primary w-75">إشتراك</button>
           </form>
@@ -314,101 +312,9 @@
 
   <!-- off canvas -->
 
-  <!-- cart -->
 
-  <div class="offcanvas offcanvas-end" tabindex="-1" id="cart" aria-labelledby="offcanvasExampleLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasExampleLabel">سلة المشتريات</h5>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-      <div class="row row-cols-1 row-mini-card ">
-        <div class="col mini-card d-flex justify-content-between align-items-center g-3">
-          <img class="w-25"
-            src="..//images/products/others/Smart Kitchen scale Digital electronic food scale balance High precision Housewares kitchen accessories 1 gram.jfif"
-            alt="منوع">
-          <p>ميزان مطبخ الكتروني</p>
-          <div class="btn-group btn-quantity-mini">
-            <button type="button" class="btn">+</button>
-            <button type="button" class="btn">1</button>
-            <button type="button" class="btn">-</button>
-          </div>
-        </div>
-        <div class="col mini-card d-flex justify-content-between align-items-center g-3">
-          <img class="w-25"
-            src="..//images/products/others/Smart Kitchen scale Digital electronic food scale balance High precision Housewares kitchen accessories 1 gram.jfif"
-            alt="منوع">
-          <p>ميزان مطبخ الكتروني</p>
-          <div class="btn-group btn-quantity-mini">
-            <button type="button" class="btn">+</button>
-            <button type="button" class="btn">1</button>
-            <button type="button" class="btn">-</button>
-          </div>
-        </div>
-        <div class="col mini-card d-flex justify-content-between align-items-center g-3">
-          <img class="w-25"
-            src="..//images/products/others/Smart Kitchen scale Digital electronic food scale balance High precision Housewares kitchen accessories 1 gram.jfif"
-            alt="منوع">
-          <p>ميزان مطبخ الكتروني</p>
-          <div class="btn-group btn-quantity-mini">
-            <button type="button" class="btn">+</button>
-            <button type="button" class="btn">1</button>
-            <button type="button" class="btn">-</button>
-          </div>
-        </div>
-        <div class="col mini-card d-flex justify-content-between align-items-center g-3">
-          <img class="w-25"
-            src="..//images/products/others/Smart Kitchen scale Digital electronic food scale balance High precision Housewares kitchen accessories 1 gram.jfif"
-            alt="منوع">
-          <p>ميزان مطبخ الكتروني</p>
-          <div class="btn-group btn-quantity-mini">
-            <button type="button" class="btn">+</button>
-            <button type="button" class="btn">1</button>
-            <button type="button" class="btn">-</button>
-          </div>
-        </div>
-      </div>
-      <div class="text-center">
-        <p class="alert alert-success">مجموع المنتجات 32$ فقط لاغير</p>
-        <button class="btn btn-primary">عرض محتويات السلة</button>
-        <button class="btn btn-success">إلغاء الطلب</button>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- login -->
-  <div class="offcanvas offcanvas-start" tabindex="-1" id="login" aria-labelledby="offcanvasExampleLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasExampleLabel">تسجيل الدخول</h5>
-      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <div class="offcanvas-body">
-      <div class="mini-login">
-        <form name="form-f">
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">أسم المستخدم أو البريد:</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            <!-- <div id="emailHelp" class="form-text"></div> -->
-          </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">كلمة السر</label>
-            <input type="password" class="form-control" id="exampleInputPassword1">
-          </div>
-          <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">تذكرني</label>
-          </div>
-          <button type="submit" class="btn btn-primary mb-3">تسجيل الدخول</button>
-          <div class="pass-forget text-center">
-            <a href="">أنقر هنا إذا نسيت كلمة السر</a>
-          </div>
-        </form>
-      </div>
-
-    </div>
-  </div>
-
+  
+ 
 
 
 

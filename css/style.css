@@ -668,6 +668,11 @@ footer .footer-hr {
 
 
 /* product decs page setting */
-.quick-reviews .category a{
- color: black !important;
+.quick-reviews {
+  margin-bottom: 10px;
+}
+
+
+.breadcrumb-item a{
+    color: black !important;
 }
